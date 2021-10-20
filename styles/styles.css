@@ -1,0 +1,151 @@
+body {
+    font-family: Asul, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .3rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1;
+    color: inherit;
+}
+#Navbar.nav-bar {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    padding-left: 200px;
+}
+#Navbar.nav-bar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#Navbar.nav-bar a:hover {
+    color: rgb(0, 0, 0, 0.5);
+}
+ section#Home.landing-section {
+    background-image: url("https://olbia.wphunters.com/wp-content/uploads/2020/05/2000-vadim_dodon-328f92495269537df3539d069c3c39ce.jpg");
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+#couples.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+#couples.header h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+section {
+    width:100%;
+}
+section#work.categories {
+    background-color: #f5f5f4;
+}
+.container {
+    margin: 100px;
+    padding: 100px;
+}
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4.location {
+    color: #9b9b9b;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+h2.title {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 45px;
+}
+img.flower-image {
+    height: auto;
+    box-shadow: none;
+    border: 0;
+    width: 280px;
+}
+p {
+    color: #4a4a4a;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.about-me {
+    border-bottom: 1px solid #4a4a4a;
+}
+.about-me-btn {
+    color: black;
+    border: red;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.row {
+    display: flex;
+}
+div.left-image {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 600px;
+    padding-left: 90px;
+}
+.column2 {
+    padding-left: 350px;
+
+}
+.column1 {
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 120px;
+}
+div.links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 27px;
+    line-height: 3.5;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+
+}
+.small-header {
+    color: #9b9b9b;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-left: 51px;
+    font-size: 15px;
+}
+div.books {
+    padding: 300px;
+
+}
+
+a.books-btn {
+    color: black;
+    text-decoration: none;
+
+}
