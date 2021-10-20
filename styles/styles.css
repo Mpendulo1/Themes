@@ -25,7 +25,7 @@ body {
 }
 
 #Navbar.nav-bar a:hover {
-    color: rgb(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
  section#Home.landing-section {
     background-image: url("https://olbia.wphunters.com/wp-content/uploads/2020/05/2000-vadim_dodon-328f92495269537df3539d069c3c39ce.jpg");
