@@ -140,12 +140,16 @@ div.links a {
     font-size: 15px;
 }
 div.books {
-    padding: 300px;
+    padding-top: 305px;
+    padding-left: 230px;
 
 }
 
 a.books-btn {
-    color: black;
+    background-color: black;
+    color: rgb(156, 149, 149);
     text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
 
 }
